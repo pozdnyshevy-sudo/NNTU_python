@@ -83,4 +83,5 @@ Use Case диаграмма
 <img width="1144" height="1116" alt="UseCase diagram" src="https://github.com/user-attachments/assets/821d101e-bde0-4130-9fbf-666774db986f" />
 
 Эр-диаграмма базы данных «Учет книг и авторов»
-<img width="1484" height="2569" alt="ER_Diagramm" src="https://github.com/user-attachments/assets/05b30710-818f-466c-ad15-f2a2ccb9a614" />
+<img width="1555" height="661" alt="ER_Diagramm" src="https://github.com/user-attachments/assets/98b160d3-c19d-4dc0-8085-56877cb72643" />
+
