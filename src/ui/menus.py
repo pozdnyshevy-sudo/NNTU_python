@@ -1,4 +1,4 @@
-from services import booking_service, equipment_service, user_service
+from services import booking_service, equipment_service, user_service, export_service
 from repositories import equipment_repository, booking_repository, user_repository
 
 def client_menu(user):
@@ -78,6 +78,7 @@ def admin_menu(user):
         print("4. Отменить бронирование")
         print("5. Просмотр пользователей")
         print("6. Добавить пользователя")
+        print("7. Экспорт бронирований в JSON, CSV, XML и YAML")
         print("0. Выход")
         choice = input("Выберите действие: ")
 
@@ -128,6 +129,11 @@ def admin_menu(user):
                 print("Ошибка: ID роли должен быть числом")
             except Exception as e:
                 print(f"Ошибка: {e}")
+        elif choice == "7":
+            try:
+                export_service.export_bookings()
+            except Exception as e:
+                print(f"Ошибка экспорта: {e}")
 
         elif choice == "0":
             break
