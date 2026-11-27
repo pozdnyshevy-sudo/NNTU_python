@@ -1,0 +1,90 @@
+- booking_id: 1
+  booking_date: '2026-10-20'
+  status: active
+  user:
+    user_id: 1
+    first_name: Иван
+    second_name: Иванов
+  equipment:
+    equipment_id: 1
+    name: Гантели 10 кг
+    type: Свободные веса
+    author:
+      author_id: 1
+      first_name: Алексей
+      second_name: Смирнов
+- booking_id: 2
+  booking_date: '2026-10-21'
+  status: active
+  user:
+    user_id: 2
+    first_name: Анна
+    second_name: Петрова
+  equipment:
+    equipment_id: 3
+    name: Коврик для йоги
+    type: Фитнес
+    author:
+      author_id: 2
+      first_name: Елена
+      second_name: Волкова
+- booking_id: 3
+  booking_date: '2026-10-21'
+  status: returned
+  user:
+    user_id: 3
+    first_name: Пётр
+    second_name: Сидоров
+  equipment:
+    equipment_id: 2
+    name: Беговая дорожка
+    type: Кардио
+    author:
+      author_id: 1
+      first_name: Алексей
+      second_name: Смирнов
+- booking_id: 4
+  booking_date: '2026-10-22'
+  status: active
+  user:
+    user_id: 1
+    first_name: Иван
+    second_name: Иванов
+  equipment:
+    equipment_id: 4
+    name: Штанга олимпийская
+    type: Свободные веса
+    author:
+      author_id: 3
+      first_name: Дмитрий
+      second_name: Орлов
+- booking_id: 5
+  booking_date: '2026-10-23'
+  status: active
+  user:
+    user_id: 4
+    first_name: Мария
+    second_name: Кузнецова
+  equipment:
+    equipment_id: 5
+    name: Гиря 16 кг
+    type: Функциональный тренинг
+    author:
+      author_id: 2
+      first_name: Елена
+      second_name: Волкова
+- booking_id: 6
+  booking_date: '2026-11-06'
+  status: returned
+  user:
+    user_id: 1
+    first_name: Иван
+    second_name: Иванов
+  equipment:
+    equipment_id: 6
+    name: Гантели 5 кг
+    type: Свободные веса
+    author:
+      author_id: 1
+      first_name: Алексей
+      second_name: Смирнов

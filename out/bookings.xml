@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='utf-8'?>
+<bookings>
+    <booking>
+        <booking_id>1</booking_id>
+        <booking_date>2026-10-20</booking_date>
+        <status>active</status>
+        <user>
+            <user_id>1</user_id>
+            <first_name>Иван</first_name>
+            <second_name>Иванов</second_name>
+        </user>
+        <equipment>
+            <equipment_id>1</equipment_id>
+            <name>Гантели 10 кг</name>
+            <type>Свободные веса</type>
+            <author>
+                <author_id>1</author_id>
+                <first_name>Алексей</first_name>
+                <second_name>Смирнов</second_name>
+            </author>
+        </equipment>
+    </booking>
+    <booking>
+        <booking_id>2</booking_id>
+        <booking_date>2026-10-21</booking_date>
+        <status>active</status>
+        <user>
+            <user_id>2</user_id>
+            <first_name>Анна</first_name>
+            <second_name>Петрова</second_name>
+        </user>
+        <equipment>
+            <equipment_id>3</equipment_id>
+            <name>Коврик для йоги</name>
+            <type>Фитнес</type>
+            <author>
+                <author_id>2</author_id>
+                <first_name>Елена</first_name>
+                <second_name>Волкова</second_name>
+            </author>
+        </equipment>
+    </booking>
+    <booking>
+        <booking_id>3</booking_id>
+        <booking_date>2026-10-21</booking_date>
+        <status>returned</status>
+        <user>
+            <user_id>3</user_id>
+            <first_name>Пётр</first_name>
+            <second_name>Сидоров</second_name>
+        </user>
+        <equipment>
+            <equipment_id>2</equipment_id>
+            <name>Беговая дорожка</name>
+            <type>Кардио</type>
+            <author>
+                <author_id>1</author_id>
+                <first_name>Алексей</first_name>
+                <second_name>Смирнов</second_name>
+            </author>
+        </equipment>
+    </booking>
+    <booking>
+        <booking_id>4</booking_id>
+        <booking_date>2026-10-22</booking_date>
+        <status>active</status>
+        <user>
+            <user_id>1</user_id>
+            <first_name>Иван</first_name>
+            <second_name>Иванов</second_name>
+        </user>
+        <equipment>
+            <equipment_id>4</equipment_id>
+            <name>Штанга олимпийская</name>
+            <type>Свободные веса</type>
+            <author>
+                <author_id>3</author_id>
+                <first_name>Дмитрий</first_name>
+                <second_name>Орлов</second_name>
+            </author>
+        </equipment>
+    </booking>
+    <booking>
+        <booking_id>5</booking_id>
+        <booking_date>2026-10-23</booking_date>
+        <status>active</status>
+        <user>
+            <user_id>4</user_id>
+            <first_name>Мария</first_name>
+            <second_name>Кузнецова</second_name>
+        </user>
+        <equipment>
+            <equipment_id>5</equipment_id>
+            <name>Гиря 16 кг</name>
+            <type>Функциональный тренинг</type>
+            <author>
+                <author_id>2</author_id>
+                <first_name>Елена</first_name>
+                <second_name>Волкова</second_name>
+            </author>
+        </equipment>
+    </booking>
+    <booking>
+        <booking_id>6</booking_id>
+        <booking_date>2026-11-06</booking_date>
+        <status>returned</status>
+        <user>
+            <user_id>1</user_id>
+            <first_name>Иван</first_name>
+            <second_name>Иванов</second_name>
+        </user>
+        <equipment>
+            <equipment_id>6</equipment_id>
+            <name>Гантели 5 кг</name>
+            <type>Свободные веса</type>
+            <author>
+                <author_id>1</author_id>
+                <first_name>Алексей</first_name>
+                <second_name>Смирнов</second_name>
+            </author>
+        </equipment>
+    </booking>
+</bookings>
